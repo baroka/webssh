@@ -21,5 +21,8 @@ INSTALLATION
     environment:
       - TZ=$TZ
       - PGID=$PGID
-      - PUID=$PUID  
+      - PUID=$PUID 
+      - HOSTS_ENTRY=xxxx
+
+ - $HOSTS_ENTRY adds a new line at hosts file end
 ```
